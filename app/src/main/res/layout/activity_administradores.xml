@@ -123,7 +123,8 @@
                 android:text=">"
                 android:textColor="@color/gris"
                 android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="parent" />
+                app:layout_constraintEnd_toEndOf="parent"
+                android:onClick="solicitud"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -403,7 +404,8 @@
                 android:text=">"
                 android:textColor="@color/gris"
                 android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="parent" />
+                app:layout_constraintEnd_toEndOf="parent"
+                android:onClick="editar"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

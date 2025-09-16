@@ -103,7 +103,8 @@
                 android:text=">"
                 android:textColor="@color/gris"
                 android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="parent" />
+                app:layout_constraintEnd_toEndOf="parent"
+                android:onClick="editar"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -184,7 +185,8 @@
                 android:text=">"
                 android:textColor="@color/gris"
                 android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="parent" />
+                app:layout_constraintEnd_toEndOf="parent"
+                android:onClick="editar"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -282,7 +284,7 @@
         android:backgroundTint="@color/seda"
         app:cornerRadius="14dp"
         android:layout_marginBottom="60dp"
-
+        android:onClick="nuevo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

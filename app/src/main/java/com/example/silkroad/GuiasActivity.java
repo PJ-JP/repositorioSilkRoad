@@ -1,6 +1,8 @@
 package com.example.silkroad;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,15 @@ public class GuiasActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public void editar(View view) {
+        Intent intent = new Intent(this, EditarAdministradorActivity.class);
+        startActivity(intent);
+    }
+
+    public void nuevo(View view) {
+        Intent intent = new Intent(this, NuevoAdministradorActivity.class);
+        startActivity(intent);
+    }
+
 }
